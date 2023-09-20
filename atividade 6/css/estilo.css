@@ -1,0 +1,9 @@
+.comportamentos{
+    list-style-type: upper-alpha;
+
+}
+.a{
+    list-style-image: url('../imagens/placa-alfandega-r21.jpg');
+    width: 100px;
+    height: 100px;
+}
