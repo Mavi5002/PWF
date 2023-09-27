@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    line-height: 1.5;
+
+    
+}
+
+h1{
+    font-size: 3rem;
+    letter-spacing: .5rem;
+}
+
+h2{
+    letter-spacing: .2rem;
+}
+
+
+
+
+
+
+
+.comportamentos{
+    list-style-type: upper-alpha;
+
+}
+.a{
+    list-style-image: url(imagens/placa-alfandega-r21\ \(1\).jpg);
+    
+    ;}
+.b{list-style-image: url(imagens/Regulamentacao-06.png);}
+
+.c{list-style-image: url(imagens/r18\ \(1\).jpg);}
+.d{list-style-image: url(imagens/dsf\ \(1\).jpeg);}
