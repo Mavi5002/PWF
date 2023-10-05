@@ -1,0 +1,29 @@
+h1{ background-color: black;
+text-align:center ;
+color:burlywood}
+
+h2{ background-image:linear-gradient(to left,burlywood, black);
+color:blanchedalmond}
+
+.para{text-align:center;
+}
+
+.para2{text-align: right;}
+
+.para3{text-align: justify;}
+.link{list-style-image: url("images.jpeg")}
+
+a:link{text-decoration: none;
+    color: blue;
+}
+a:visited{color: blue;}
+a:hover{color: red;
+text-decoration: underline;}
+
+a:active{color: blue;
+text-decoration: none;}
+
+
+
+ 
+
