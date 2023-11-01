@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+table{
+    border-collapse: collapse;
+   
+}
+td,th{
+    border: 1px solid black;
+    border-collapse: collapse;  
+    padding: 5px;
+}
+.meio{
+    text-align: center;
+}
+
+
+.ajuste{
+    padding: 10px;
+}
+
+.top{
+    vertical-align: top;
+}
+.middle{
+    vertical-align: middle;
+}
+.bottom{
+    vertical-align: bottom;
+}
+
+div tr:nth-child(even) {
+    background-color: rgb(193, 145, 231);
+}
+
+div tr:nth-child(odd) {
+    background-color: white;
+}
