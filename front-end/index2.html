@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        background-image: linear-gradient(to right,#D0FFDA,#6B3333);
+    }
+    h1{margin-top: 2;}
+    ul{
+        margin: 1;
+        padding:1 ;
+        list-style: none;}
+        form {
+            margin: 0 auto;
+            width: 300px;
+            padding: 3em;
+            
+            border-radius: 1em;
+            background-color: #D0FFDA;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #6B3333;
+        }
+        label span {
+            text-align: right;
+            display: inline-block;}
+
+           
+
+
+    </style>
+</head>
+<body>
+    <form>
+       <h1>Formas de pagamento</h1>
+       <p>Os campos obrigatórios são seguidos por
+        <strong><span aria-label="required">*</span></strong>.
+       </p>
+       <section>
+        <h2>Informações de contato</h2>
+        <fieldset>
+          <legend>Título</legend>
+          <ul>
+            <li>
+              <label for="title_1">
+                <input type="radio" id="title_1" name="title" value="A" />
+                Ace
+              </label>
+            </li>
+            <li>
+              <label for="title_2">
+                <input type="radio" id="title_2" name="title" value="K" />
+                Rei
+              </label>
+            </li>
+            <li>
+              <label for="title_3">
+                <input type="radio" id="title_3" name="title" value="Q" />
+                Rainha
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <p>
+          <label for="name">
+            <span>Nome: </span>
+            <strong><span aria-label="required">*</span></strong>
+          </label>
+          <input type="text" id="name" name="username" required />
+        </p>
+        <p>
+          <label for="mail">
+            <span>Email: </span>
+            <strong><span aria-label="required">*</span></strong>
+          </label>
+          <input type="email" id="mail" name="usermail" required />
+        </p>
+        <p>
+          <label for="pwd">
+            <span>Senha: </span>
+            <strong><span aria-label="required">*</span></strong>
+          </label>
+          <input type="password" id="pwd" name="password" required />
+        </p>
+      </section>
+
+      <section>
+        <h2>Informações de pagamento</h2>
+        <p>
+            <label for="card">
+              <span>Tipo de cartão:</span>
+            </label>
+            <select id="card" name="usercard">
+              <option value="visa">Visa</option>
+              <option value="mc">Mastercard</option>
+              <option value="amex">American Express</option>
+            </select>
+          </p>
+          <p>
+            <label for="number">
+              <span>Número do cartão:</span>
+              <strong><span aria-label="required">*</span></strong>
+            </label>
+            <input type="tel" id="number" name="cardnumber" required />
+          </p>
+          <p>
+            <label for="expiration">
+              <span>Data de vencimento:</span>
+              <strong><span aria-label="required">*</span></strong>
+            </label>
+            <input
+              type="text"
+              id="expiration"
+              required="true"
+              placeholder="MM/YY"
+              pattern="^(0[1-9]|1[0-2])\/([0-9]{2})$" />
+          </p>
+
+          <section>
+
+        <button type="submit">Confirmar o pagamento</button>
+          </section>
+
+
+
+
+      </section>
+
+    </form>
+</body>
+</html>
